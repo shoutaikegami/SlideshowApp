@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "404D92021F5BFBBC00514C8E"
+               BuildableName = "SlideShowApp.app"
+               BlueprintName = "SlideShowApp"
+               ReferencedContainer = "container:SlideShowApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "404D92161F5BFBBC00514C8E"
+               BuildableName = "SlideShowAppTests.xctest"
+               BlueprintName = "SlideShowAppTests"
+               ReferencedContainer = "container:SlideShowApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "404D92211F5BFBBC00514C8E"
+               BuildableName = "SlideShowAppUITests.xctest"
+               BlueprintName = "SlideShowAppUITests"
+               ReferencedContainer = "container:SlideShowApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "404D92021F5BFBBC00514C8E"
+            BuildableName = "SlideShowApp.app"
+            BlueprintName = "SlideShowApp"
+            ReferencedContainer = "container:SlideShowApp.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "404D92021F5BFBBC00514C8E"
+            BuildableName = "SlideShowApp.app"
+            BlueprintName = "SlideShowApp"
+            ReferencedContainer = "container:SlideShowApp.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "404D92021F5BFBBC00514C8E"
+            BuildableName = "SlideShowApp.app"
+            BlueprintName = "SlideShowApp"
+            ReferencedContainer = "container:SlideShowApp.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
