@@ -100,25 +100,25 @@
                                 <rect key="frame" x="172" y="567" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="Zuv-JJ-DQG" kind="unwind" unwindAction="unwindWithSender:" id="K5N-Dc-t0G"/>
+                                    <segue destination="Zuv-JJ-DQG" kind="unwind" unwindAction="unwind:" id="grN-pU-s5o"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sBx-ot-nAp">
-                                <rect key="frame" x="0.0" y="50" width="375" height="500"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="500" id="Mbp-1f-2TO"/>
-                                    <constraint firstAttribute="width" constant="375" id="yWT-D9-fT4"/>
+                                    <constraint firstAttribute="height" constant="400" id="T2t-ql-Pm1"/>
+                                    <constraint firstAttribute="width" constant="375" id="sOq-3Z-3nj"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="sBx-ot-nAp" secondAttribute="trailing" id="FQq-df-bIN"/>
-                            <constraint firstItem="sBx-ot-nAp" firstAttribute="top" secondItem="zfH-kP-U43" secondAttribute="bottom" constant="30" id="Hnf-nI-ZBX"/>
-                            <constraint firstItem="fIL-IL-GJ0" firstAttribute="top" secondItem="fdP-Fo-Bcr" secondAttribute="bottom" constant="70" id="KtT-BF-jYN"/>
-                            <constraint firstItem="sBx-ot-nAp" firstAttribute="leading" secondItem="qBk-Vt-YYi" secondAttribute="leading" id="M0M-gZ-KaL"/>
-                            <constraint firstItem="sBx-ot-nAp" firstAttribute="centerX" secondItem="qBk-Vt-YYi" secondAttribute="centerX" id="Qvs-pK-5q8"/>
-                            <constraint firstItem="fdP-Fo-Bcr" firstAttribute="centerX" secondItem="qBk-Vt-YYi" secondAttribute="centerX" id="aso-Kj-BYC"/>
+                            <constraint firstItem="fdP-Fo-Bcr" firstAttribute="centerX" secondItem="qBk-Vt-YYi" secondAttribute="centerX" id="2M5-iX-emB"/>
+                            <constraint firstItem="sBx-ot-nAp" firstAttribute="top" secondItem="zfH-kP-U43" secondAttribute="bottom" constant="30" id="4v9-0r-6Sp"/>
+                            <constraint firstItem="fIL-IL-GJ0" firstAttribute="top" secondItem="fdP-Fo-Bcr" secondAttribute="bottom" constant="70" id="BXS-Nr-nHg"/>
+                            <constraint firstItem="sBx-ot-nAp" firstAttribute="centerX" secondItem="qBk-Vt-YYi" secondAttribute="centerX" id="Fmw-4a-Cxp"/>
+                            <constraint firstItem="sBx-ot-nAp" firstAttribute="leading" secondItem="qBk-Vt-YYi" secondAttribute="leading" id="LyJ-u3-OIp"/>
+                            <constraint firstAttribute="trailing" secondItem="sBx-ot-nAp" secondAttribute="trailing" id="avk-mY-htE"/>
                         </constraints>
                     </view>
                     <connections>

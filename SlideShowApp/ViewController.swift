@@ -21,6 +21,14 @@ class ViewController: UIViewController {
         let eivc: ExtendedImageViewController = (segue.destination as? ExtendedImageViewController)!
         // viewControllerのimageに画像を設定
         eivc.segueImage = imageView.image!
+        
+        // タイマーを止める処理
+        self.timer?.invalidate()
+        playOrStopButton.setTitle("再生", for: UIControlState.normal)
+        onPrevButton.isEnabled = true
+        onNextButton.isEnabled = true
+        self.timer = nil
+        
     }
 
     // 一定の間隔で処理を行うためのタイマー
@@ -40,9 +48,6 @@ class ViewController: UIViewController {
     
     //Timerによって一定の間隔で呼び出される関数
     func onTimer(timer: Timer) {
-        
-        // 関数が呼ばれていることを確認
-        // print("onTimer")
         
         // 表示している画像の番号を1増やす
         dispImageNo += 1
@@ -122,11 +127,12 @@ class ViewController: UIViewController {
             playOrStopButton.setTitle("再生", for: UIControlState.normal)
             onPrevButton.isEnabled = true
             onNextButton.isEnabled = true
+            self.timer = nil
             
         }
     }
     
-    @IBAction func unwind(sender: UIStoryboardSegue) {
+    @IBAction func unwind(_ sender: UIStoryboardSegue) {
         
     }
 }
